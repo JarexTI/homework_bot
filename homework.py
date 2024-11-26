@@ -37,7 +37,7 @@ HOMEWORK_VERDICTS = {
 }
 
 
-def check_tokens() -> list:
+def check_tokens() -> list[str]:
     """Проверяет наличие токенов и чат-id."""
     tokens = {
         'PRACTICUM_TOKEN': PRACTICUM_TOKEN,
